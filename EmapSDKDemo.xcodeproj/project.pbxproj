@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		978DEE1A21D3944100F6439F /* EmapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978DEE1921D3944100F6439F /* EmapSDK.framework */; };
+		978DEE1E21D39A8700F6439F /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978DEE1D21D39A8700F6439F /* ArcGIS.framework */; };
+		978DEE2121D39D5100F6439F /* test.mm in Sources */ = {isa = PBXBuildFile; fileRef = 978DEE1F21D39D5100F6439F /* test.mm */; };
+		97CDFCD121D0D83600619433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CDFCD021D0D83600619433 /* main.m */; };
+		97CDFCD421D0D83600619433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CDFCD321D0D83600619433 /* AppDelegate.m */; };
+		97CDFCD721D0D83600619433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CDFCD621D0D83600619433 /* ViewController.m */; };
+		97CDFCDA21D0D83600619433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CDFCD821D0D83600619433 /* Main.storyboard */; };
+		97CDFCDC21D0D83600619433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CDFCDB21D0D83600619433 /* Assets.xcassets */; };
+		97CDFCDF21D0D83600619433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CDFCDD21D0D83600619433 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		978DEE1921D3944100F6439F /* EmapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EmapSDK.framework; sourceTree = "<group>"; };
+		978DEE1D21D39A8700F6439F /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ArcGIS.framework; sourceTree = "<group>"; };
+		978DEE1F21D39D5100F6439F /* test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = test.mm; sourceTree = "<group>"; };
+		97CDFCCC21D0D83600619433 /* EmapSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmapSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CDFCD021D0D83600619433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97CDFCD221D0D83600619433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97CDFCD321D0D83600619433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97CDFCD521D0D83600619433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97CDFCD621D0D83600619433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97CDFCD921D0D83600619433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97CDFCDB21D0D83600619433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97CDFCDE21D0D83600619433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97CDFCE021D0D83600619433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97CDFCC921D0D83600619433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978DEE1A21D3944100F6439F /* EmapSDK.framework in Frameworks */,
+				978DEE1E21D39A8700F6439F /* ArcGIS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97CDFCC321D0D83600619433 = {
+			isa = PBXGroup;
+			children = (
+				978DEE1D21D39A8700F6439F /* ArcGIS.framework */,
+				978DEE1921D3944100F6439F /* EmapSDK.framework */,
+				97CDFCCE21D0D83600619433 /* EmapSDKDemo */,
+				97CDFCCD21D0D83600619433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97CDFCCD21D0D83600619433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CDFCCC21D0D83600619433 /* EmapSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97CDFCCE21D0D83600619433 /* EmapSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				97CDFCD221D0D83600619433 /* AppDelegate.h */,
+				97CDFCD321D0D83600619433 /* AppDelegate.m */,
+				97CDFCD521D0D83600619433 /* ViewController.h */,
+				97CDFCD621D0D83600619433 /* ViewController.m */,
+				97CDFCD821D0D83600619433 /* Main.storyboard */,
+				97CDFCDB21D0D83600619433 /* Assets.xcassets */,
+				97CDFCDD21D0D83600619433 /* LaunchScreen.storyboard */,
+				97CDFCE021D0D83600619433 /* Info.plist */,
+				97CDFCCF21D0D83600619433 /* Supporting Files */,
+				978DEE1F21D39D5100F6439F /* test.mm */,
+			);
+			path = EmapSDKDemo;
+			sourceTree = "<group>";
+		};
+		97CDFCCF21D0D83600619433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97CDFCD021D0D83600619433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97CDFCCB21D0D83600619433 /* EmapSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CDFCE321D0D83600619433 /* Build configuration list for PBXNativeTarget "EmapSDKDemo" */;
+			buildPhases = (
+				97CDFCC821D0D83600619433 /* Sources */,
+				97CDFCC921D0D83600619433 /* Frameworks */,
+				97CDFCCA21D0D83600619433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmapSDKDemo;
+			productName = EmapSDKDemo;
+			productReference = 97CDFCCC21D0D83600619433 /* EmapSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97CDFCC421D0D83600619433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xmac;
+				TargetAttributes = {
+					97CDFCCB21D0D83600619433 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 97CDFCC721D0D83600619433 /* Build configuration list for PBXProject "EmapSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97CDFCC321D0D83600619433;
+			productRefGroup = 97CDFCCD21D0D83600619433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97CDFCCB21D0D83600619433 /* EmapSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97CDFCCA21D0D83600619433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CDFCDF21D0D83600619433 /* LaunchScreen.storyboard in Resources */,
+				97CDFCDC21D0D83600619433 /* Assets.xcassets in Resources */,
+				97CDFCDA21D0D83600619433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97CDFCC821D0D83600619433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CDFCD721D0D83600619433 /* ViewController.m in Sources */,
+				978DEE2121D39D5100F6439F /* test.mm in Sources */,
+				97CDFCD421D0D83600619433 /* AppDelegate.m in Sources */,
+				97CDFCD121D0D83600619433 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97CDFCD821D0D83600619433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97CDFCD921D0D83600619433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97CDFCDD21D0D83600619433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97CDFCDE21D0D83600619433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97CDFCE121D0D83600619433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97CDFCE221D0D83600619433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97CDFCE421D0D83600619433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EmapSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emap.EmapSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97CDFCE521D0D83600619433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EmapSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emap.EmapSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97CDFCC721D0D83600619433 /* Build configuration list for PBXProject "EmapSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CDFCE121D0D83600619433 /* Debug */,
+				97CDFCE221D0D83600619433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CDFCE321D0D83600619433 /* Build configuration list for PBXNativeTarget "EmapSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CDFCE421D0D83600619433 /* Debug */,
+				97CDFCE521D0D83600619433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97CDFCC421D0D83600619433 /* Project object */;
+}
